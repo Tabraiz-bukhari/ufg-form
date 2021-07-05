@@ -27,7 +27,6 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->integer('is_login')->unsigned()->default(0);
             $table->timestamps();
-            
         });
     }
 
